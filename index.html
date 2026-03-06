@@ -797,17 +797,31 @@
 
 <!-- SLIDE 23 -->
 <section class="content-slide" data-background-color="#042A24">
-  <h3>네이버 쇼핑 검색은 무엇을 보는가</h3>
+  <h3>네이버플러스 스토어 검색 알고리즘</h3>
   <div class="flow-arrow">
-    <div class="step" style="border-color:var(--aity-red); border-width:2px;"><strong>적합도</strong><br><span style="font-size:0.75em;">검색어와 얼마나 맞는가</span></div>
-    <div class="arrow">+</div>
-    <div class="step"><strong>인기도</strong><br><span style="font-size:0.75em;">클릭·구매 반응</span></div>
-    <div class="arrow">+</div>
-    <div class="step"><strong>신뢰도</strong><br><span style="font-size:0.75em;">후기·운영 정보</span></div>
+    <div class="step" style="border-color:#00C853; border-width:2px; background:rgba(0,200,83,0.15);"><strong>적합도</strong><br><span style="font-size:0.7em;">사용자의 검색 의도에<br>적합한 상품</span></div>
+    <div class="arrow">×</div>
+    <div class="step" style="border-color:#448AFF; border-width:2px; background:rgba(68,138,255,0.15);"><strong>인기도</strong><br><span style="font-size:0.7em;">많이 찾고<br>많이 판매되는 상품</span></div>
+    <div class="arrow">×</div>
+    <div class="step" style="border-color:#7C4DFF; border-width:2px; background:rgba(124,77,255,0.15);"><strong>신뢰도</strong><br><span style="font-size:0.7em;">상품 정보가<br>신뢰할 수 있는 상품</span></div>
+    <div class="arrow">×</div>
+    <div class="step" style="border-color:#FFAB40; border-width:2px; background:rgba(255,171,64,0.15);"><strong>선호도</strong><br><span style="font-size:0.7em;">사용자의 특성과<br>쇼핑 이력 기반</span></div>
   </div>
-  <blockquote style="margin-top:1em;">
-    오늘은 수강생이 <span class="highlight">직접 조정할 수 있는 항목</span> 중심으로 다룹니다
-  </blockquote>
+  <div style="display:flex; gap:15px; margin-top:0.8em; font-size:0.75em;">
+    <div style="flex:1; background:rgba(0,200,83,0.1); padding:10px; border-radius:6px;">
+      <span style="color:#00C853;">적합도</span><br>상품명 · 카테고리<br>제조사/브랜드 · 속성/태그
+    </div>
+    <div style="flex:1; background:rgba(68,138,255,0.1); padding:10px; border-radius:6px;">
+      <span style="color:#448AFF;">인기도</span><br>클릭수 · 판매실적<br>리뷰수/리뷰평점 · 최신성
+    </div>
+    <div style="flex:1; background:rgba(124,77,255,0.1); padding:10px; border-radius:6px;">
+      <span style="color:#7C4DFF;">신뢰도</span><br>상품명 SEO<br>네이버 쇼핑 패널티
+    </div>
+    <div style="flex:1; background:rgba(255,171,64,0.1); padding:10px; border-radius:6px;">
+      <span style="color:#FFAB40;">선호도</span><br>사용자 성/연령<br>쇼핑 이력
+    </div>
+  </div>
+  <p style="font-size:0.75em; color:var(--aity-gray); margin-top:0.6em; text-align:center;">출처: 네이버 스마트스토어센터</p>
   <div class="footer-tag">Part 2. 키워드 SEO 설계</div>
 </section>
 
@@ -829,22 +843,31 @@
 
 <!-- SLIDE 25 -->
 <section class="content-slide" data-background-color="#042A24">
-  <h3>인기도와 신뢰도: 왜 페이지 품질과도 연결되는가</h3>
-  <div class="two-column">
-    <div>
-      <h4 style="color:#FFAB40;">인기도</h4>
-      <ul>
-        <li>클릭률</li>
-        <li>구매 반응</li>
-        <li>체류 시간</li>
+  <h3>인기도·신뢰도·선호도: 페이지 품질과의 연결</h3>
+  <div style="display:flex; gap:20px;">
+    <div style="flex:1; background:rgba(68,138,255,0.1); padding:15px; border-radius:8px; border-left:3px solid #448AFF;">
+      <h4 style="color:#448AFF; margin:0 0 0.3em;">인기도</h4>
+      <ul style="font-size:0.8em;">
+        <li>클릭수</li>
+        <li>판매 실적</li>
+        <li>리뷰수 / 리뷰 평점</li>
+        <li>최신성</li>
       </ul>
     </div>
-    <div>
-      <h4 style="color:#FFAB40;">신뢰도</h4>
-      <ul>
-        <li>후기 수와 질</li>
-        <li>신뢰감 있는 운영 정보</li>
-        <li>응답률</li>
+    <div style="flex:1; background:rgba(124,77,255,0.1); padding:15px; border-radius:8px; border-left:3px solid #7C4DFF;">
+      <h4 style="color:#7C4DFF; margin:0 0 0.3em;">신뢰도</h4>
+      <ul style="font-size:0.8em;">
+        <li>상품명 SEO 준수</li>
+        <li>네이버 쇼핑 패널티 여부</li>
+        <li>운영 정보 신뢰감</li>
+      </ul>
+    </div>
+    <div style="flex:1; background:rgba(255,171,64,0.1); padding:15px; border-radius:8px; border-left:3px solid #FFAB40;">
+      <h4 style="color:#FFAB40; margin:0 0 0.3em;">선호도</h4>
+      <ul style="font-size:0.8em;">
+        <li>사용자 성별/연령 특성</li>
+        <li>쇼핑 이력 기반 추천</li>
+        <li>관심 상품 카테고리</li>
       </ul>
     </div>
   </div>
@@ -1055,16 +1078,29 @@
 <!-- SLIDE 37 -->
 <section class="content-slide" data-background-color="#042A24">
   <h3>대표 이미지도 SEO와 연결된다</h3>
-  <ul class="checklist">
-    <li>무엇을 파는지 바로 보이는가?</li>
-    <li>텍스트가 너무 많지는 않은가?</li>
-    <li>여러 상품이 한 화면에 뒤섞이지 않는가?</li>
-    <li>저화질/과도한 워터마크는 없는가?</li>
-  </ul>
-  <blockquote>
-    대표 이미지는 <span class="highlight">클릭률과 신뢰</span>에 영향을 주는<br>
-    <strong>입구 요소</strong>입니다
+  <div class="two-column">
+    <div>
+      <p style="font-size:0.9em; font-weight:600; color:#FFAB40;">고해상도 썸네일 이미지 필수</p>
+      <ul>
+        <li><span class="highlight">선명한 고해상도 이미지</span> 사용 권장</li>
+        <li>해당 상품만을 정직하게 드러내는 썸네일</li>
+        <li>활용성을 보여주는 연출 이미지 추가 시 <span class="highlight">주문 전환율 상승</span></li>
+      </ul>
+    </div>
+    <div>
+      <p style="font-size:0.9em; font-weight:600; color:#FFAB40;">체크 포인트</p>
+      <ul class="checklist">
+        <li>무엇을 파는지 바로 보이는가?</li>
+        <li>텍스트가 너무 많지는 않은가?</li>
+        <li>여러 상품이 뒤섞이지 않는가?</li>
+        <li>저화질/워터마크는 없는가?</li>
+      </ul>
+    </div>
+  </div>
+  <blockquote style="margin-top:0.5em;">
+    대표 이미지는 <span class="highlight">클릭률과 신뢰</span>에 영향을 주는 <strong>입구 요소</strong>입니다
   </blockquote>
+  <p style="font-size:0.7em; color:var(--aity-gray);">출처: 네이버 스마트스토어센터</p>
   <div class="footer-tag">Part 2. 키워드 SEO 설계</div>
 </section>
 
@@ -1084,7 +1120,130 @@
   <div class="footer-tag">Part 2. 키워드 SEO 설계</div>
 </section>
 
-<!-- SLIDE 39: 실습 2 -->
+<!-- ===== 상위 노출 최적화 방법 (NEW SLIDES) ===== -->
+
+<!-- SLIDE 39: 상위 노출 최적화 개요 -->
+<section class="content-slide" data-background-color="#042A24">
+  <h3>상위 노출 최적화 5가지 방법</h3>
+  <p style="margin-bottom:0.8em;">네이버 스마트스토어센터 공식 가이드 기반</p>
+  <div class="flow-arrow" style="flex-wrap:wrap;">
+    <div class="step" style="border-color:#00C853; border-width:2px;">1. 고해상도<br>썸네일</div>
+    <div class="arrow">→</div>
+    <div class="step" style="border-color:#448AFF; border-width:2px;">2. 카테고리 일치<br>상품명</div>
+    <div class="arrow">→</div>
+    <div class="step" style="border-color:#7C4DFF; border-width:2px;">3. 할인율<br>적정 설정</div>
+    <div class="arrow">→</div>
+    <div class="step" style="border-color:#FFAB40; border-width:2px;">4. 리뷰<br>관리</div>
+    <div class="arrow">→</div>
+    <div class="step" style="border-color:var(--aity-red); border-width:2px;">5. 맞춤형<br>스토어</div>
+  </div>
+  <blockquote style="margin-top:1em;">
+    검색 알고리즘의 4요소(적합도·인기도·신뢰도·선호도)를<br>
+    <strong>실무에서 직접 개선할 수 있는 5가지 액션</strong>입니다
+  </blockquote>
+  <p style="font-size:0.7em; color:var(--aity-gray);">출처: 네이버 스마트스토어센터</p>
+  <div class="footer-tag">Part 2. 키워드 SEO 설계</div>
+</section>
+
+<!-- SLIDE 40: 최적화 2 - 카테고리와 일치하는 상품명 -->
+<section class="content-slide" data-background-color="#042A24">
+  <h3>최적화 2: 카테고리와 일치하는 상품명 사용</h3>
+  <ul>
+    <li>최근 개편으로 <span class="highlight">상품명과 카테고리의 일치 여부</span>가 더욱 중요해짐</li>
+    <li>검색어와 관련성이 높은 카테고리의 상품을 <span class="highlight">먼저 상위에 노출</span></li>
+  </ul>
+  <div style="background:rgba(255,255,255,0.08); padding:15px 20px; border-radius:8px; margin:0.8em 0;">
+    <p style="font-size:0.85em; margin-bottom:0.5em;"><strong>실전 가이드</strong></p>
+    <ul style="font-size:0.85em;">
+      <li><span class="highlight">① 상품과 유관한 카테고리</span>를 선택한다</li>
+      <li><span class="highlight">② 해당 카테고리에 속하는 하위 키워드</span>를 상품명에 작성한다</li>
+      <li>아이템스카우트 등의 도구로 카테고리별 키워드를 확인할 수 있음</li>
+    </ul>
+  </div>
+  <div style="background:rgba(0,200,83,0.1); padding:12px 20px; border-radius:8px; border-left:3px solid #00C853;">
+    <p style="font-size:0.85em; margin:0;"><strong style="color:#00C853;">Good 예시</strong></p>
+    <p style="font-size:0.8em; margin:0.3em 0 0;">상품명: 레이디가구 트윈 1200 <span class="highlight">확장형 좌식 테이블</span><br>
+    카테고리: 가구/인테리어 > 거실가구 > 테이블 > <span class="highlight">거실테이블</span><br>
+    속성: 좌식테이블, 원목, E1등급, 화이트 | 태그: 매끈한, 모던한, 실용적인 디자인, 확장형</p>
+  </div>
+  <p style="font-size:0.7em; color:var(--aity-gray); margin-top:0.5em;">출처: 네이버 스마트스토어센터</p>
+  <div class="footer-tag">Part 2. 키워드 SEO 설계</div>
+</section>
+
+<!-- SLIDE 41: 최적화 3 - 과도한 할인율 설정 지양 -->
+<section class="content-slide" data-background-color="#042A24">
+  <h3>최적화 3: 과도한 할인율 설정 지양</h3>
+  <ul>
+    <li>이전까지 고객의 선택을 받기 위해 높은 할인율을 설정하는 셀러가 많았음</li>
+    <li>네이버플러스 스토어에서는 고객에게 <span class="highlight">편리한 검색 경험을 제공</span>하는 것을 중시</li>
+    <li>과도한 할인율 설정을 <span class="highlight">지양</span>하고 있음</li>
+  </ul>
+  <div style="background:rgba(167,37,36,0.2); padding:20px; border-radius:10px; text-align:center; margin:1em 0;">
+    <p style="font-size:1.3em; font-weight:700; margin:0; color:#FFAB40;">할인율은 50% 미만으로!</p>
+    <p style="font-size:0.85em; margin:0.3em 0 0;">이 정도로 설정하는 것이 안전합니다</p>
+  </div>
+  <blockquote>
+    할인으로 유인하는 전략보다<br>
+    <strong>가치 설명으로 설득하는 전략</strong>이 더 효과적입니다
+  </blockquote>
+  <div class="footer-tag">Part 2. 키워드 SEO 설계</div>
+</section>
+
+<!-- SLIDE 42: 최적화 4 - 텍스트 및 사진 리뷰 관리 -->
+<section class="content-slide" data-background-color="#042A24">
+  <h3>최적화 4: 텍스트 및 사진 리뷰 관리</h3>
+  <p>리뷰는 네이버플러스 스토어의 <span class="highlight">상위 노출을 결정짓는 중요한 요소</span></p>
+  <div style="display:flex; gap:15px; margin:0.8em 0;">
+    <div style="flex:1; background:rgba(255,255,255,0.08); padding:15px; border-radius:8px; text-align:center;">
+      <p style="font-size:0.85em; font-weight:600;">텍스트 리뷰</p>
+      <p style="font-size:2em; margin:0;">📝</p>
+      <p style="font-size:0.75em; color:var(--aity-gray);">기본 리뷰</p>
+    </div>
+    <div style="flex:1; background:rgba(255,255,255,0.08); padding:15px; border-radius:8px; text-align:center;">
+      <p style="font-size:0.85em; font-weight:600;">사진 리뷰</p>
+      <p style="font-size:2em; margin:0;">📸</p>
+      <p style="font-size:0.75em; color:var(--aity-gray);">신뢰도 높음</p>
+    </div>
+    <div style="flex:1; background:rgba(255,171,64,0.15); padding:15px; border-radius:8px; text-align:center; border:1px solid #FFAB40;">
+      <p style="font-size:0.85em; font-weight:600; color:#FFAB40;">동영상 리뷰</p>
+      <p style="font-size:2em; margin:0;">🎬</p>
+      <p style="font-size:0.75em; color:#FFAB40;">인기도 점수 최고</p>
+    </div>
+  </div>
+  <ul>
+    <li>동영상 리뷰는 인기도 점수가 가장 높지만 수집이 어려움</li>
+    <li>현실적으로 <span class="highlight">텍스트 및 사진 리뷰 수</span>를 늘리는 전략에 집중</li>
+  </ul>
+  <div style="background:rgba(167,37,36,0.2); padding:10px 20px; border-radius:8px; margin-top:0.5em;">
+    <p style="font-size:0.8em; margin:0;"><strong style="color:var(--aity-red);">주의:</strong> 셀프 리뷰, 지인 리뷰 등 어뷰징 행위는 강화된 정책으로 적발 시 검색에서 불이익 발생</p>
+  </div>
+  <div class="footer-tag">Part 2. 키워드 SEO 설계</div>
+</section>
+
+<!-- SLIDE 43: 최적화 5 - 맞춤형 스토어 구성 -->
+<section class="content-slide" data-background-color="#042A24">
+  <h3>최적화 5: 맞춤형 스토어 구성</h3>
+  <ul>
+    <li>네이버플러스 스토어 <span class="highlight">'베스트' 탭</span>에서 성별·나이대에 따른 키워드 랭킹 제공</li>
+    <li>특정 고객층이 선호하는 키워드, 카테고리의 상품이 <span class="highlight">우선 노출</span></li>
+  </ul>
+  <div style="background:rgba(255,255,255,0.08); padding:20px; border-radius:10px; margin:0.8em 0;">
+    <p style="font-size:0.9em; font-weight:600; color:#FFAB40; margin-bottom:0.5em;">전략</p>
+    <ul>
+      <li>내 상품을 구매할 가능성이 높은 <span class="highlight">잠재 고객층</span>을 파악</li>
+      <li>해당 고객층에게 상품을 노출시키기 위해 <span class="highlight">특정 고객층을 타겟한 맞춤형 스토어</span>를 구축</li>
+      <li>성별/연령대별로 검색 패턴이 다르므로 이에 맞는 키워드 전략 필요</li>
+    </ul>
+  </div>
+  <blockquote>
+    모두에게 팔려고 하면 아무에게도 안 팔립니다.<br>
+    <strong>타겟 고객층에 맞춘 스토어 설계</strong>가 선호도를 높입니다
+  </blockquote>
+  <p style="font-size:0.7em; color:var(--aity-gray);">출처: 네이버 스마트스토어센터</p>
+  <div class="footer-tag">Part 2. 키워드 SEO 설계</div>
+</section>
+
+<!-- SLIDE 44: 실습 2 -->
 <section class="practice-slide" data-background-color="#E5E7EB">
   <div class="practice-badge">실습 2</div>
   <h3>내 상품 키워드 구조 만들기</h3>
